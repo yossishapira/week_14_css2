@@ -88,7 +88,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     width: 130PX;
     height: 140PX;
 
@@ -167,10 +166,13 @@ header {
     border-radius: 40px;
     margin-right: 5px;
 }
-
 .button:hover {
+    background-color: rgb(28, 61, 33);
     border: 1px solid rgb(37, 202, 73);
+
+
 }
+
 
 .central-strap {
     width: 83%;
@@ -201,7 +203,8 @@ header {
 }
 
 .button-central:hover{
-    transform:  scale(1.03)
+    transform:  scale(1.03) 
+
 }
 
 .warning-stripe {
@@ -226,6 +229,8 @@ header {
 
 .warning-stripe:hover{
     border: 1px solid rgb(245, 17, 93);
+    background-color: rgb(63, 5, 5);
+
 
 }
 
